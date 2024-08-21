@@ -4,9 +4,9 @@ import data from "./data/testimonials.json";
 function App() {
   return (
     <>
-      <main>
-        {data.testimonials.map((entry) => (
-          <Testimonial entry={entry} key={entry.name} />
+      <main className="mx-6 my-20 grid gap-6">
+        {data.testimonials.map((entry, index) => (
+          <Testimonial entry={entry} index={index} key={entry.name} />
         ))}
       </main>
     </>
