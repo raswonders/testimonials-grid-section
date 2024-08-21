@@ -1,6 +1,6 @@
 # Frontend Mentor - Testimonials grid section solution
 
-This is a solution to the [Testimonials grid section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7). 
+This is a solution to the [Testimonials grid section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7).
 
 ## Table of contents
 
@@ -24,15 +24,16 @@ Users should be able to:
 
 ### Screenshots
 
-![](./screenshots/desktop.png)
-![](./screenshots/mobile.png)
+<img src="./screenshots/desktop.png" alt="Screenshot" width="1270">
+<img src="./screenshots/mobile.png" alt="Screenshot" width="400">
 
 ### Links
 
-- Live Site URL: [https://sensational-heliotrope-4dcaff.netlify.app/](https://sensational-heliotrope-4dcaff.netlify.app/)
+- Live Site URL: [https://effervescent-palmier-ab413d.netlify.app/](https://effervescent-palmier-ab413d.netlify.app/)
 
 ## My process
-I created html skeleton with all the data. Then I applied mobile styles. After i extended styles in order to make it responsive. As last thing I've refactored tw classes a little bit and made features and banner separate components.
+
+I created html skeleton with data imported from json format. Then I add layout and styling for mobile. After I made it responsive for desktop size.
 
 ### Built with
 
@@ -41,21 +42,19 @@ I created html skeleton with all the data. Then I applied mobile styles. After i
 - Mobile-first workflow
 - [TS](https://www.typescriptlang.org/) - Typescript
 - [React](https://reactjs.org/) - JS library
-- [Tailwindcss](https://tailwindcss.com/) - CSS library 
+- [Tailwindcss](https://tailwindcss.com/) - CSS library
 
 ### What I learned
 
-I rehashed some forgotten grid theory, also realized there is so many layouts I've never tried to create with grid. I've also had to add distinct tw classes dynamically to elements in a array, which was fun problem to deal with. 
+I learned how to center content with grid. Till now I was using flexbox mostly. I also realized setting min-height of element to 100vh will make it viewport height without need of further tinkering with sizes of its parents. I've also played with explicitly setting elements in a grid which was fun.
+Also found out about Google Fonts extension for vscode which speeds up imports of fonts. 
 
 ### Continued development
 
-While learning about grid, I was mesmerized by sizing flexibility of grid items, i want to test its auto-sizing capabilities futher.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+Planning to use grid as much as possible in the future and learn bunch of cool layouts. 
 
 ## Author
 
 - Frontend Mentor - [@raswonders](https://www.frontendmentor.io/profile/raswonders)
 - Twitter - [@raswonders](https://www.twitter.com/raswonders)
 - LinkedIn - [Rastislav Hepner](https://www.linkedin.com/in/rastislavhepner/)
-
