@@ -1,12 +1,13 @@
+import { Testimonial } from "./components/Testimonial";
 import data from "./data/testimonials.json";
 
 function App() {
   return (
     <>
       <main>
-        {data.testimonials.map((t) => {
-          return <h1>{t.name}</h1>;
-        })}
+        {data.testimonials.map((entry) => (
+          <Testimonial entry={entry} key={entry.name} />
+        ))}
       </main>
     </>
   );
