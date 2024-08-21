@@ -1,7 +1,13 @@
+import data from "./data/testimonials.json";
+
 function App() {
   return (
     <>
-      <h1>rtt-vite-template</h1>
+      <main>
+        {data.testimonials.map((t) => {
+          return <h1>{t.name}</h1>;
+        })}
+      </main>
     </>
   );
 }
